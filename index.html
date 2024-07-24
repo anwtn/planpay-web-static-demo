@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>planpay/web basic test</title>
+    <link rel="stylesheet" href="index.css"></style>
+  </head>
+  <body>
+    <section>
+      <h2>Price preview</h2>
+      <div
+        data-planpay-data-type="price-preview"
+        data-planpay-total-cost="200.00"
+        data-planpay-currency-code="AUD"
+        data-planpay-redemption-date="2025-03-30"
+        data-planpay-payment-deadline="60"
+        data-planpay-total-minimum-deposit="20.00"
+        data-planpay-merchant-id="000abcd00ef0"
+      >
+        Loading...
+      </div>
+    </section>
+    <section>
+      <h2>Checkout</h2>
+      <div data-planpay-checkout-id="1axo7gq572e3">Loading...</div>
+    </section>
+  </body>
+  <script type="module" src="dist/bundle.js"></script>
+</html>
